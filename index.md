@@ -11,20 +11,30 @@ title: SATCO | Global Commodities & Supply Chain Partner
     background-position: center !important;
   }
 
-  /* Navigation Bar Styling */
+  /* Navigation Bar Styling - اصلاح شده برای چیدمان حرفه‌ای و افکت طلایی */
   .custom-nav {
     background: #1a252f;
-    padding: 15px;
+    padding: 15px 5px;
     text-align: center;
     border-radius: 4px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
   }
   .custom-nav a {
     color: #fff !important;
-    margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 14px;
     cursor: pointer;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent; /* کادر مخفی برای افکت */
+    transition: 0.3s; /* انیمیشن نرم */
+  }
+  .custom-nav a:hover, .dropdown:hover .dropbtn {
+    border-bottom: 2px solid #cc7a00; /* کادر طلایی هنگام هاور */
   }
   
   /* Dropdown Menu Styling */
@@ -49,8 +59,12 @@ title: SATCO | Global Commodities & Supply Chain Partner
     display: block;
     margin: 0;
     font-weight: normal;
+    border-bottom: none !important; /* حذف کادر طلایی برای زیرمنوها */
   }
-  .dropdown-content a:hover { background-color: #f1f1f1; }
+  .dropdown-content a:hover { 
+    background-color: #f1f1f1;
+    border-bottom: none !important;
+  }
   .dropdown:hover .dropdown-content { display: block; }
   
   /* Product Grid Styling */
@@ -73,7 +87,6 @@ title: SATCO | Global Commodities & Supply Chain Partner
   <a href="index.html">Home</a>
   <a href="#">About Us</a>
   
-  <!-- Minerals Menu -->
   <div class="dropdown">
     <a class="dropbtn">Minerals ▾</a>
     <div class="dropdown-content">
@@ -86,7 +99,6 @@ title: SATCO | Global Commodities & Supply Chain Partner
     </div>
   </div>
 
-  <!-- Petrochemicals Menu -->
   <div class="dropdown">
     <a class="dropbtn">Petrochemicals ▾</a>
     <div class="dropdown-content">
@@ -101,7 +113,6 @@ title: SATCO | Global Commodities & Supply Chain Partner
     </div>
   </div>
 
-  <!-- Refined Products Menu -->
   <div class="dropdown">
     <a class="dropbtn">Refined ▾</a>
     <div class="dropdown-content">
