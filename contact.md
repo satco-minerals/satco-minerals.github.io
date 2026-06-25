@@ -107,7 +107,7 @@ title: Contact Us | SATCO
 
     <!-- Smart Inquiry Form -->
     <div class="contact-form">
-      <form action="https://formspree.io/f/your-formspree-id" method="POST">
+      <form action="https://formspree.io/f/xwvdlygn" method="POST">
         <div class="form-group">
           <label for="name">Full Name *</label>
           <input type="text" id="name" name="name" required placeholder="John Doe">
