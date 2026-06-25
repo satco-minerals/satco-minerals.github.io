@@ -3,8 +3,15 @@ layout: default
 title: SATCO | Global Commodities & Supply Chain Partner
 ---
 
-<!-- استایل اختصاصی برای درست کردن منو و چیدمان -->
+<!-- استایل اختصاصی برای درست کردن منو، چیدمان و بنر سفارشی بالا -->
 <style>
+  /* کد حذف کادر سبز و جایگزینی بنر بندرگاه و کالاها */
+  .page-header {
+    background-image: url('Banner.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
   .custom-nav {
     background: #1a252f;
     padding: 15px;
@@ -27,7 +34,7 @@ title: SATCO | Global Commodities & Supply Chain Partner
     position: absolute;
     background-color: #f9f9f9;
     min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: left;
     border-radius: 4px;
