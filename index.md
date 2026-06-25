@@ -21,9 +21,10 @@ title: SATCO | Global Commodities & Supply Chain Partner
   }
   .custom-nav a {
     color: #fff !important;
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
   }
   
   /* Dropdown Menu Styling */
@@ -35,17 +36,19 @@ title: SATCO | Global Commodities & Supply Chain Partner
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 220px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 100;
     text-align: left;
     border-radius: 4px;
+    margin-top: 10px;
   }
   .dropdown-content a {
     color: #333 !important;
-    padding: 8px 16px;
+    padding: 10px 16px;
     display: block;
     margin: 0;
+    font-weight: normal;
   }
   .dropdown-content a:hover { background-color: #f1f1f1; }
   .dropdown:hover .dropdown-content { display: block; }
@@ -60,7 +63,7 @@ title: SATCO | Global Commodities & Supply Chain Partner
   .product-card {
     background: #f8f9fa;
     padding: 15px;
-    border-left: 4px solid #cc7a00; /* SATCO Copper Accent */
+    border-left: 4px solid #cc7a00;
     border-radius: 4px;
     font-weight: bold;
   }
@@ -70,20 +73,23 @@ title: SATCO | Global Commodities & Supply Chain Partner
   <a href="index.html">Home</a>
   <a href="#">About Us</a>
   
+  <!-- Minerals Menu -->
   <div class="dropdown">
-    <a href="#" class="dropbtn">Commodities ▾</a>
+    <a class="dropbtn">Minerals ▾</a>
     <div class="dropdown-content">
-      <small style="padding: 10px 15px 5px; color: #cc7a00; font-weight: bold; display: block;">Minerals</small>
       <a href="#">Cement</a>
       <a href="#">Clinker</a>
       <a href="#">Dolomite</a>
       <a href="#">Gypsum Stone & Powder</a>
       <a href="#">Microsilica</a>
       <a href="#">Calcium Carbonate</a>
-      
-      <div style="border-top: 1px solid #ddd; margin: 5px 0;"></div>
-      
-      <small style="padding: 10px 15px 5px; color: #cc7a00; font-weight: bold; display: block;">Petrochemicals</small>
+    </div>
+  </div>
+
+  <!-- Petrochemicals Menu -->
+  <div class="dropdown">
+    <a class="dropbtn">Petrochemicals ▾</a>
+    <div class="dropdown-content">
       <a href="#">Bitumen</a>
       <a href="#">Urea</a>
       <a href="#">Methanol</a>
@@ -92,10 +98,13 @@ title: SATCO | Global Commodities & Supply Chain Partner
       <a href="#">PVC</a>
       <a href="#">Acetic Acid</a>
       <a href="#">MEG</a>
-      
-      <div style="border-top: 1px solid #ddd; margin: 5px 0;"></div>
-      
-      <small style="padding: 10px 15px 5px; color: #cc7a00; font-weight: bold; display: block;">Refined Products</small>
+    </div>
+  </div>
+
+  <!-- Refined Products Menu -->
+  <div class="dropdown">
+    <a class="dropbtn">Refined ▾</a>
+    <div class="dropdown-content">
       <a href="#">Sulfur</a>
       <a href="#">Gas Oil / Diesel</a>
       <a href="#">Base Oil</a>
