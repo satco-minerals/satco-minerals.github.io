@@ -85,7 +85,7 @@ title: SATCO | Global Commodities & Supply Chain Partner
 
 <nav class="custom-nav">
   <a href="index.html">Home</a>
-  <a href="#">About Us</a>
+  <a href="about.html">About Us</a>
   
   <div class="dropdown">
     <a class="dropbtn">Minerals ▾</a>
