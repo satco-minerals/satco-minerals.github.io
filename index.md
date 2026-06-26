@@ -58,16 +58,17 @@ title: SATCO | Global Commodities & Supply Chain Partner
     border-bottom: none !important;
   }
   .dropdown-content a:hover { background-color: #f1f1f1; }
-  .dropdown:hover .dropdown-content { display: block; }
+  .dropdown:hover > .dropdown-content { display: block; }
 
-  /* Nested Dropdown (Level 2) */
+  /* Nested Dropdown Logic */
   .dropdown-submenu { position: relative; }
   .dropdown-submenu .dropdown-content {
+    display: none; /* مخفی ماندن در حالت پیش‌فرض */
     top: 0; 
     left: 100%; 
     margin-top: -10px;
   }
-  .dropdown-submenu:hover .dropdown-content { display: block; }
+  .dropdown-submenu:hover > .dropdown-content { display: block; } /* فقط با هاور روی Cement نمایش داده شود */
 
   /* Product Grid */
   .product-grid {
@@ -89,11 +90,9 @@ title: SATCO | Global Commodities & Supply Chain Partner
   <a href="index.html">Home</a>
   <a href="about.html">About Us</a>
   
-  <!-- Minerals Dropdown -->
   <div class="dropdown">
     <a class="dropbtn">Minerals ▾</a>
     <div class="dropdown-content">
-      <!-- Cement Submenu -->
       <div class="dropdown-submenu">
         <a href="#">Cement ‣</a>
         <div class="dropdown-content">
