@@ -1,10 +1,4 @@
-title: SATCO | Global Commodities & Supply Chain Partner
+theme: jekyll-theme-cayman
+title: SATCO
 description: Your Trusted Global Commodities & Supply Chain Partner
-
-# Navigation Menu
-header_pages:
-  - index.md
-  - commodities.md
-  - logistics.md
-  - operations.md
-  - contact.md
+header_background_url: Banner.png
