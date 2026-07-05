@@ -142,7 +142,7 @@ title: Contact Us | SATCO
   <div style="padding-top: 10px;">
     <div class="info-item">
       <h4>Direct Contact</h4>
-      <p><strong>Email:</strong> Satco.group1998@gmail.com</p>
+      <p><strong>Email:</strong> info.satco.minerals@gmail.com</p>
       <p><strong>Phone / WhatsApp:</strong> +971 50 290 5700</p>
     </div>
     <div class="info-item">
