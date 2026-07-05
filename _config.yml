@@ -1,4 +1,10 @@
-theme: jekyll-theme-cayman
-title: SATCO Minerals
+title: SATCO | Global Commodities & Supply Chain Partner
 description: Your Trusted Global Commodities & Supply Chain Partner
-header_background_url: Banner.png
+
+# Navigation Menu
+header_pages:
+  - index.md
+  - commodities.md
+  - logistics.md
+  - operations.md
+  - contact.md
