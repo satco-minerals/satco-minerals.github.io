@@ -5,18 +5,27 @@ layout: default
 <style>
   .page-header {
     background-image: url('Banner.png') !important;
-    background-size: contain !important;
+    background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-color: #021323 !important;
-    min-height: 25vw !important;
+    height: 350px !important;
     padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
   }
   
   .project-name,
   .project-tagline,
   .btn {
     display: none !important;
+  }
+
+  /* حذف حاشیه اضافی قالب */
+  .main-content {
+    max-width: 100% !important;
+    padding-top: 20px !important;
   }
 </style>
 
