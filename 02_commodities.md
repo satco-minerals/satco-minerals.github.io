@@ -1,5 +1,3 @@
-# _config.yml (اصلاح شده بر اساس لیست دقیق شما)
-
 nav_menu:
   - title: Commodities
     children:
