@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
-title: SATCO
-description: Your Trusted Global Commodities & Supply Chain Partner
-header_background_url: Banner.png
+title: ""
+description: ""
+header_background_image: /Banner.png
 
 # تنظیمات منوها
 header_pages:
