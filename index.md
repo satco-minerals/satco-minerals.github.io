@@ -1,14 +1,16 @@
 ---
 layout: default
-title: Home
 ---
 
 <style>
   .page-header {
     background-image: url('Banner.png') !important;
-    background-size: cover !important;
+    background-size: 100% 100% !important;
     background-position: center !important;
-    min-height: 300px;
+    min-height: 400px !important;
+  }
+  .project-name, .project-tagline {
+    display: none !important;
   }
 </style>
 
