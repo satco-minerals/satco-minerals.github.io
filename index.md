@@ -3,6 +3,15 @@ layout: default
 title: Home
 ---
 
+<style>
+  .page-header {
+    background-image: url('Banner.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 300px;
+  }
+</style>
+
 [Home](index.html) | [Commodities](02_commodities.html) | [Logistics](03_logistics.html) | [Operations](04_operations.html) | [Contact](05_contact.html)
 
 # Welcome to SATCO
