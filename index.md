@@ -5,15 +5,13 @@ layout: default
 <style>
   .page-header {
     background-image: url('Banner.png') !important;
-    background-size: contain !important; /* عکس بدون کشیدگی فیت می‌شود */
-    background-position: center !important;
+    background-size: cover !important;
+    background-position: center center !important;
     background-repeat: no-repeat !important;
-    background-color: #021323 !important; /* رنگ پس‌زمینه هدر را همرنگ بنر کنید */
-    min-height: 250px; /* ارتفاع کادر بنر (قابل تغییر) */
-    position: relative;
+    background-color: #021323 !important;
+    min-height: 350px !important;
   }
   
-  /* مخفی کردن متن‌های پیش‌فرض تم */
   .project-name,
   .project-tagline,
   .btn {
