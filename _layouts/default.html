@@ -8,9 +8,9 @@
 </head>
 <body>
 
-  <!-- بنر اصلی سایت شما -->
-  <header style="text-align: center; padding: 20px 0;">
-    <img src="{{ '/Banner.png' | relative_url }}" alt="SATCO Banner" style="max-width: 100%; height: auto;">
+  <!-- بنر اصلی سایت شما با اصلاح پس‌زمینه و ابعاد بنر جدید -->
+  <header style="text-align: center; background-color: #0d1b2a; padding: 10px 0;">
+    <img src="{{ '/Banner.png' | relative_url }}" alt="SATCO Banner" style="max-width: 100%; height: auto; display: block; margin: 0 auto; object-fit: contain;">
   </header>
 
   <!-- منوی جدید و شیک سورمه‌ای و طلایی -->
@@ -24,7 +24,7 @@
     </ul>
   </nav>
 
-  <!-- این بخش حیاتی تمام محتوا و متن‌های سایتت را برمی‌گرداند -->
+  <!-- بخش نمایش محتوای صفحات -->
   <main style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
     {{ content }}
   </main>
