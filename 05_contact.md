@@ -39,7 +39,7 @@ title: Contact Us | SATCO
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    border-top: 4px solid #cc7a00;
+    border-top: 4px solid #d4af37; /* تغییر به طلایی ساتکو */
   }
   .form-group {
     margin-bottom: 20px;
@@ -48,7 +48,7 @@ title: Contact Us | SATCO
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #1a252f;
+    color: #0d1b2a; /* تغییر به سورمه‌ای ساتکو */
   }
   .form-group input, .form-group select, .form-group textarea {
     width: 100%;
@@ -63,18 +63,19 @@ title: Contact Us | SATCO
     height: 120px;
   }
   .submit-btn {
-    background-color: #cc7a00;
-    color: white;
+    background-color: #0d1b2a; /* تغییر به سورمه‌ای ساتکو برای دکمه */
+    color: #d4af37; /* متن طلایی روی دکمه سورمه‌ای */
     padding: 12px 20px;
-    border: none;
+    border: 1px solid #d4af37;
     border-radius: 4px;
     font-weight: bold;
     cursor: pointer;
     width: 100%;
-    transition: background 0.3s;
+    transition: all 0.3s;
   }
   .submit-btn:hover {
-    background-color: #b36b00;
+    background-color: #d4af37;
+    color: #0d1b2a;
   }
 
   /* Info Details */
@@ -82,9 +83,11 @@ title: Contact Us | SATCO
     margin-bottom: 25px;
   }
   .info-item h4 {
-    color: #cc7a00;
+    color: #d4af37; /* تغییر به طلایی ساتکو */
     margin-bottom: 5px;
     font-size: 1.1em;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
   }
   .info-item p {
     color: #555;
