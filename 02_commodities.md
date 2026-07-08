@@ -4,118 +4,130 @@ title: Commodities | SATCO
 ---
 
 <style>
-  .commodities-hero { text-align: center; margin-bottom: 50px; padding: 20px; }
-  .commodities-hero h2 { color: #0d1b2a; font-size: 2.5em; margin-bottom: 10px; }
-  
-  /* گرید اصلی برای ۳۶ محصول */
-  .commodities-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 20px;
-    max-width: 1100px;
-    margin: 0 auto 60px auto;
-    padding: 0 20px;
+  /* استایل دسته‌بندی‌ها */
+  .section-header {
+    background: #0d1b2a;
+    color: #d4af37;
+    padding: 15px 30px;
+    margin: 50px 20px 20px 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    border-left: 10px solid #d4af37;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 
-  /* استایل باکس صنعتی (حس کیسه/جامبوبگ) */
-  .product-box {
-    height: 160px;
-    background: #ffffff;
-    border: 2px dashed #cbd5e1;
-    border-radius: 10px;
+  /* گرید برای چیدمان کیسه‌ها */
+  .jumbo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* طراحی گرافیکی جامبوبگ */
+  .jumbo-bag {
+    width: 220px;
+    height: 260px;
+    background: #fcfcfc;
+    border: 2px solid #b8b8b8;
+    border-radius: 15px 15px 5px 5px;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    box-shadow: 10px 10px 0px rgba(0,0,0,0.05);
     text-decoration: none;
-    color: #0d1b2a;
-    font-weight: 700;
-    font-size: 1.1em;
-    text-align: center;
-    transition: all 0.3s ease;
-    position: relative;
+    transition: 0.3s;
+    margin: 10px;
   }
 
-  .product-box:hover {
-    background: #0d1b2a;
-    color: #d4af37;
-    border: 2px solid #d4af37;
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  }
-
-  .product-box::before {
-    content: "SATCO";
+  /* دسته‌های جامبوبگ */
+  .jumbo-bag::before {
+    content: "";
     position: absolute;
-    top: 10px;
-    font-size: 0.6em;
-    letter-spacing: 2px;
-    opacity: 0.3;
+    top: -15px;
+    width: 80px;
+    height: 20px;
+    border: 4px solid #999;
+    border-radius: 10px 10px 0 0;
   }
 
-  .quote-box {
-    background: #0d1b2a;
-    color: white;
-    padding: 40px;
-    border-radius: 8px;
+  .jumbo-bag:hover {
+    transform: translateY(-10px);
+    border-color: #d4af37;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.1);
+  }
+
+  .jumbo-name {
+    font-weight: 800;
+    color: #0d1b2a;
     text-align: center;
-    max-width: 900px;
-    margin: 20px auto;
-    border: 1px solid #d4af37;
+    padding: 15px;
+    font-size: 0.9em;
   }
 </style>
 
-<div class="commodities-hero">
-  <h2>Our Commodities Portfolio</h2>
-  <p>Standardized industrial supply chain. Click on any product to view technical specifications.</p>
+<!-- CEMENT SERIES -->
+<div class="section-header">Cement Series</div>
+<div class="jumbo-grid">
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">OPC - Type 1</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">OPC - Type 2</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">OPC - Type 3</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">OPC - Type 4</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">OPC - Type 5</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">White Portland Cement</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Oil Well Cement</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Portland Pozzolana (PPC)</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Special Pozzolanic Cement</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Composite & Blended Cement</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Portland Limestone Cement</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Masonry Cement</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">High Blaine Cement</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Slag Cement</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Mixed Cement</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Advanced Composite Cement</div></a>
 </div>
 
-<div class="commodities-grid">
-  <a href="#" class="product-box">OPC - Type 1</a>
-  <a href="#" class="product-box">OPC - Type 2</a>
-  <a href="#" class="product-box">OPC - Type 3</a>
-  <a href="#" class="product-box">OPC - Type 4</a>
-  <a href="#" class="product-box">OPC - Type 5</a>
-  <a href="#" class="product-box">White Portland Cement</a>
-  <a href="#" class="product-box">Oil Well Cement</a>
-  <a href="#" class="product-box">Portland Pozzolana (PPC)</a>
-  <a href="#" class="product-box">Special Pozzolanic Cement</a>
-  <a href="#" class="product-box">Composite & Blended Cement</a>
-  <a href="#" class="product-box">Portland Limestone Cement</a>
-  <a href="#" class="product-box">Masonry Cement</a>
-  <a href="#" class="product-box">High Blaine Cement</a>
-  <a href="#" class="product-box">Slag Cement</a>
-  <a href="#" class="product-box">Mixed Cement</a>
-  <a href="#" class="product-box">Advanced Composite Cement</a>
-
-  <a href="#" class="product-box">OPC Clinker</a>
-  <a href="#" class="product-box">Low-Alkali Clinker</a>
-  <a href="#" class="product-box">SR Clinker</a>
-  <a href="#" class="product-box">HES Clinker</a>
-  <a href="#" class="product-box">LHC Clinker</a>
-
-  <a href="#" class="product-box">Natural Gypsum Rock</a>
-  <a href="#" class="product-box">Gypsum Powder</a>
-
-  <a href="#" class="product-box">Limestone</a>
-  <a href="#" class="product-box">Calcium Carbonate</a>
-  <a href="#" class="product-box">Dolomite</a>
-  <a href="#" class="product-box">Bentonite</a>
-  <a href="#" class="product-box">Kaolin (China Clay)</a>
-  <a href="#" class="product-box">Barite</a>
-  <a href="#" class="product-box">Fluorspar</a>
-  <a href="#" class="product-box">Feldspar</a>
-  <a href="#" class="product-box">Potash</a>
-
-  <a href="/products/slag.html" class="product-box">Blast Furnace Slag</a>
-  <a href="#" class="product-box">Microsilica</a>
-  <a href="#" class="product-box">Zeolite</a>
-  <a href="#" class="product-box">Coal</a>
+<!-- PORTLAND CLINKER -->
+<div class="section-header">Portland Clinker</div>
+<div class="jumbo-grid">
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">OPC Clinker</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Low-Alkali Clinker</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">SR Clinker</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">HES Clinker</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">LHC Clinker</div></a>
 </div>
 
-<div class="quote-box">
-  <h3 style="color: #d4af37; margin-top: 0;">Looking for Custom Specifications?</h3>
-  <p>We provide flexible shipping options in Bulk or Jumbo Bags tailored to international maritime standards.</p>
-  <a href="/05_contact.html" style="display: inline-block; background: #d4af37; color: #0d1b2a; padding: 12px 25px; text-decoration: none; font-weight: bold; border-radius: 4px; margin-top: 15px;">Contact Our Trade Desk</a>
+<!-- GYPSUM -->
+<div class="section-header">Gypsum Products</div>
+<div class="jumbo-grid">
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Natural Gypsum Rock</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Gypsum Powder</div></a>
+</div>
+
+<!-- INDUSTRIAL MINERALS -->
+<div class="section-header">Industrial Minerals</div>
+<div class="jumbo-grid">
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Limestone</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Calcium Carbonate</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Dolomite</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Bentonite</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Kaolin (China Clay)</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Barite</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Fluorspar</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Feldspar</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Potash</div></a>
+</div>
+
+<!-- ECO-ADDITIVES -->
+<div class="section-header">Eco-Additives & Energy</div>
+<div class="jumbo-grid">
+  <a href="/products/slag.html" class="jumbo-bag"><div class="jumbo-name">Blast Furnace Slag</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Microsilica</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Zeolite</div></a>
+  <a href="#" class="jumbo-bag"><div class="jumbo-name">Coal</div></a>
 </div>
