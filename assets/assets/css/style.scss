@@ -2,7 +2,35 @@
 ---
 @import "{{ site.theme }}";
 
-.project-name, 
+/* تنظیمات استایل صفحه و هدر */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* جلوگیری از اسکرول افقی */
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* عرض کامل */
+    height: 800px; /* ارتفاع ثابت */
+    background-image: url('../Banner.png') !important; /* فراخوانی بنر از CSS */
+    background-size: cover !important; /* تنظیم اندازه برای پوشش کامل */
+    background-position: center !important; /* موقعیت بنر در مرکز */
+    background-repeat: no-repeat !important; /* عدم تکرار تصویر */
+    margin: 0 !important; /* حذف حاشیه */
+    padding: 0 !important; /* حذف پدینگ */
+}
+
+.project-name,
 .project-tagline {
-  display: none !important;
+    display: none !important; /* مخفی کردن متن های پیش فرض */
+}
+
+/* تنظیمات برای ریسپانسیو شدن صحیح */
+@media screen and (max-width: 768px) {
+    .page-header {
+        height: 400px; /* کاهش ارتفاع در موبایل برای نمایش بهتر */
+    }
 }
