@@ -1,3 +1,17 @@
 ---
 ---
 @import "{{ site.theme }}";
+
+.page-header {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.project-name, .project-tagline {
+  display: none;
+}
