@@ -279,10 +279,10 @@ title: Commodities | SATCO
             </tr>
           </thead>
           <tbody>
-            <tr><td><strong>Granulated Blast Furnace Slag (Slag/اسلگ)</strong></td><td>Un-ground Granules / GGBS Feed</td><td>Partial replacement of cement to maximize concrete durability.</td></tr>
+            <tr><td><strong>Granulated Blast Furnace Slag (GGBS)</strong></td><td>Un-ground Granules / GGBS Feed</td><td>Partial replacement of cement to maximize concrete durability.</td></tr>
             <tr><td><strong>Microsilica (Silica Fume)</strong></td><td>Densified / Undensified Gray Powder</td><td>Essential for high-strength concrete, reducing porosity.</td></tr>
             <tr><td><strong>Zeolite</strong></td><td>Natural Porous Crystals / Powder</td><td>Water filtration, gas purification, agricultural soil moisture retainers.</td></tr>
-            <tr><td><strong>Coal (ذغال سنگ)</strong></td><td>Steam & Metallurgical Bituminous</td><td>Thermal energy source for cement kilns, power utilities, and steel industries.</td></tr>
+            <tr><td><strong>Coal (Steam & Metallurgical)</strong></td><td>Bituminous / Anthracite Grades</td><td>Thermal energy source for cement kilns, power utilities, and steel industries.</td></tr>
           </tbody>
         </table>
       </div>
