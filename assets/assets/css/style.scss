@@ -10,8 +10,10 @@
   align-items: center;
   background-size: cover !important;
   background-position: center !important;
+  background-repeat: no-repeat !important;
 }
 
-.project-name, .project-tagline {
-  display: none;
+.project-name, 
+.project-tagline {
+  display: none !important;
 }
