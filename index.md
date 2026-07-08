@@ -1,14 +1,15 @@
----
-layout: default
----
+<style> .page-header { background-image: url('Banner.png') !important; background-size: contain !important; background-position: center center !important; background-repeat: no-repeat !important; background-color: #021323 !important; min-height: 25vw !important; padding: 0 !important; } .project-name, .project-tagline, .btn { display: none !important; } </style>
+Home | Commodities | Logistics | Operations | Contact
 
-# Commodities
+Welcome to SATCO
+Your Trusted Global Commodities & Supply Chain Partner
+Welcome to SATCO. We bridge the gap between global industrial demand and reliable supply. With a dedicated focus on quality, efficiency, and transparency, we specialize in sourcing and delivering essential commodities to support your operations worldwide.
 
-### Cement
-* Cement Type 1, Cement Type 2, Cement Type 3, Cement Type 4, Cement Type 5, White Cement, Well Cement, Pozzolan Cement, Special Pozzolan Cement, Composite Cement, Portland-Limestone Cement, Masonry Cement, High Blaine Cement, Slag Cement, Blended Cement, Composite Cement.
+At SATCO, we believe that a robust supply chain is the backbone of industrial growth. Our commitment is to provide seamless logistical solutions and consistent product quality, ensuring your projects stay on track and meet the highest industry standards.
 
-### Clinker
-* OPC Clinker, Low-Alkali Clinker, SR Clinker, HES Clinker, LHC Clinker.
+Why Choose Us?
 
-### Minerals
-* Gypsum Rock, Gypsum Powder, Slag, Limestone, Calcium Carbonate, Dolomite, Coal, Zeolite, Microsilica, Bentonite, Kaolin, Barite, Fluorspar, Feldspar, Potash.
+Reliability: Consistent supply of high-grade industrial commodities.
+Logistics Excellence: Integrated transport and supply chain management.
+Global Reach: Serving markets with precision and efficiency.
+Partner with us to optimize your supply chain and drive your business forward.
