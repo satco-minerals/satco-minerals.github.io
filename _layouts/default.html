@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="fa" dir="rtl">
+<head>
     <meta charset="UTF-8">
     <title>{{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
-  <body>
-    <header class="site-header"></header>
-    <section class="main-content">
-      {{ content }}
+</head>
+<body>
+
+    <div class="banner-container" style="width: 100%; height: 800px; overflow: hidden; margin: 0; padding: 0;">
+        <img src="{{ '/assets/Banner.png' | relative_url }}" alt="SATCO Banner" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    </div>
+
+    <section class="main-content" style="margin-top: 20px;">
+        {{ content }}
     </section>
-  </body>
+
+</body>
 </html>
