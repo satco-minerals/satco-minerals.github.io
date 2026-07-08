@@ -1,51 +1,73 @@
-<!-- Satco Main Navigation Menu -->
-<nav class="satco-nav-container">
-  <ul class="satco-menu">
-    <li><a href="/" class="active">HOME</a></li>
-    <li><a href="/commodities">COMMODITIES</a></li>
-    <li><a href="/market-insights">MARKET INSIGHTS</a></li>
-    <li><a href="/our-shipments">OUR SHIPMENTS</a></li>
-    <li><a href="/contact-us">CONTACT US</a></li>
-  </ul>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
 
-<style>
-  /* استایل‌های اختصاصی منوی ساتکو */
-  .satco-nav-container {
-    background-color: #0d1b2a; /* رنگ سورمه‌ای تیره بنر شما */
-    width: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 0;
-    margin: 0;
-  }
+  <!-- بنر اصلی سایت شما -->
+  <header style="text-align: center; padding: 20px 0;">
+    <img src="{{ '/Banner.png' | relative_url }}" alt="SATCO Banner" style="max-width: 100%; height: auto;">
+  </header>
 
-  .satco-menu {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start; /* چیدمان از چپ به راست */
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px 20px;
-  }
+  <!-- منوی جدید و شیک سورمه‌ای و طلایی -->
+  <nav class="satco-nav-container">
+    <ul class="satco-menu">
+      <li><a href="{{ '/' | relative_url }}">HOME</a></li>
+      <li><a href="{{ '/02_commodities.html' | relative_url }}">COMMODITIES</a></li>
+      <li><a href="{{ '/03_market_insights.html' | relative_url }}">MARKET INSIGHTS</a></li>
+      <li><a href="{{ '/04_our_shipments.html' | relative_url }}">OUR SHIPMENTS</a></li>
+      <li><a href="{{ '/05_contact.html' | relative_url }}">CONTACT US</a></li>
+    </ul>
+  </nav>
 
-  .satco-menu li {
-    margin-right: 30px; /* فاصله بین منوها */
-  }
+  <!-- این بخش حیاتی تمام محتوا و متن‌های سایتت را برمی‌گرداند -->
+  <main style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
+    {{ content }}
+  </main>
 
-  .satco-menu li a {
-    color: #ffffff; /* رنگ سفید نوشته‌ها */
-    text-decoration: none;
-    font-family: 'Montserrat', 'Arial', sans-serif; /* فونت رسمی و مدرن انگلیسی */
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-    transition: color 0.3s ease;
-  }
+  <style>
+    /* استایل‌های اختصاصی منوی ساتکو */
+    .satco-nav-container {
+      background-color: #0d1b2a; /* رنگ سورمه‌ای تیره */
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 0;
+      margin: 0;
+    }
 
-  /* افکت طلایی رنگ هنگام رفتن ماوس روی منو */
-  .satco-menu li a:hover, 
-  .satco-menu li a.active {
-    color: #d4af37; /* رنگ طلایی لوکس و متالیک */
-  }
-</style>
+    .satco-menu {
+      list-style: none;
+      display: flex;
+      justify-content: flex-start; /* چپ به راست */
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 15px 20px;
+    }
+
+    .satco-menu li {
+      margin-right: 30px;
+    }
+
+    .satco-menu li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-family: 'Arial', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 1px;
+      transition: color 0.3s ease;
+    }
+
+    /* افکت طلایی هنگام رفتن ماوس روی منو */
+    .satco-menu li a:hover {
+      color: #d4af37;
+    }
+  </style>
+
+</body>
+</html>
