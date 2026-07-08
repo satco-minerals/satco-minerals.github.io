@@ -4,12 +4,11 @@
 
 .page-header {
   height: 800px !important;
+  background-image: url('../Banner.png') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #000 !important;
 }
 
 .project-name, 
