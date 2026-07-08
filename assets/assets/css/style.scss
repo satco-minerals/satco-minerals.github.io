@@ -2,40 +2,29 @@
 ---
 @import "{{ site.theme }}";
 
-/* تنظیمات پایه برای کل صفحه و جلوگیری از حاشیه */
 html, body {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     overflow-x: hidden;
 }
 
-/* تنظیمات اختصاصی برای بنر (هدر) */
-.page-header {
-    display: block;
-    width: 100% !important;
-    height: 800px !important; /* ارتفاع ثابت بنر */
-    background-image: url('../Banner.png') !important; /* آدرس دقیق فایل */
-    background-size: cover !important; /* پوشش کامل صفحه */
-    background-position: center center !important; /* فیکس شدن در مرکز */
-    background-repeat: no-repeat !important; /* عدم تکرار تصویر */
-    background-color: #000 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: none !important;
-    box-sizing: border-box;
+.site-header {
+    width: 100%;
+    height: 800px;
+    background-image: url('../Banner.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
-/* مخفی کردن عناصر پیش‌فرض تم که مانع کار هستند */
-.project-name,
-.project-tagline,
-.btn {
+.page-header, .project-name, .project-tagline, .btn {
     display: none !important;
 }
 
-/* ریسپانسیو برای موبایل (ارتفاع کمتر) */
 @media screen and (max-width: 768px) {
-    .page-header {
-        height: 400px !important;
+    .site-header {
+        height: 300px;
     }
 }
