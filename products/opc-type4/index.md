@@ -13,19 +13,33 @@ title: Portland Cement Type 4 | SATCO
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   }
   h1 { color: #0d1b2a; margin-top: 0; }
-  h2 { color: #0d1b2a; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-top: 25px; }
-  ul { line-height: 1.8; color: #333; }
-  li { margin-bottom: 10px; }
+  h2 { color: #0d1b2a; border-bottom: 2px solid #ddd; padding-bottom: 15px; margin-top: 30px; }
   
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-  th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-  th { background-color: #0d1b2a; color: #ffffff; }
+  /* استایل جداول تمام‌عرض */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    border: 1px solid #ddd;
+  }
+  th { 
+    background-color: #0d1b2a; 
+    color: #ffffff; 
+    padding: 12px; 
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  td { 
+    padding: 12px; 
+    border: 1px solid #ddd; 
+    text-align: left; 
+  }
   tr:nth-child(even) { background-color: #f9f9f9; }
 </style>
 
 <div class="content-card">
   <h1>Portland Cement Type 4: Low Heat of Hydration</h1>
-  <p>Portland Cement Type 4 is specifically formulated for massive concrete structures were minimizing the heat generated during hydration is critical. By limiting temperature rise, it effectively prevents thermal cracking in large-scale pours, ensuring structural stability and durability in massive elements.</p>
+  <p>Portland Cement Type 4 is specifically formulated for massive concrete structures where minimizing the heat generated during hydration is critical. By limiting temperature rise, it effectively prevents thermal cracking in large-scale pours, ensuring structural stability and durability in massive elements.</p>
 
   <h2>Key Advantages</h2>
   <ul>
