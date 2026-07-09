@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Low-Alkali Clinker | SATCO
+title: Low-Alkali Clinker
 ---
 
 <style>
