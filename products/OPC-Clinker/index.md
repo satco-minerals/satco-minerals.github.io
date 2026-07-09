@@ -14,7 +14,7 @@ title: OPC Clinker | SATCO
   }
   h1 { color: #0d1b2a; margin-top: 0; }
   h2 { color: #0d1b2a; border-bottom: 2px solid #d4af37; padding-bottom: 5px; margin-top: 25px; }
-  ul { line-height: 1.8; }
+  ul { line-height: 1.8; color: #333; }
   li { margin-bottom: 10px; }
   
   table { width: 100%; border-collapse: collapse; margin: 20px 0; }
@@ -45,6 +45,7 @@ title: OPC Clinker | SATCO
   <ul>
     <li><b>ASTM Standard:</b> Compliant with ASTM C150 Type I/II specifications.</li>
     <li><b>Quality Class:</b> Premium Industrial Grade.</li>
+    <li><b>Chemical Profile:</b> Optimized SiO₂ and Al₂O₃ ratio for balanced hydration.</li>
   </ul>
 
   <h2>Packaging & Logistics</h2>
@@ -56,6 +57,9 @@ title: OPC Clinker | SATCO
   </ul>
 
   <h2>OPC Clinker Analysis</h2>
+  <p>This analysis validates the chemical and mineralogical properties required for high-performance general construction applications.</p>
+
+  <h2>Chemical Composition</h2>
   <table>
     <tr><th>Parameter</th><th>Result Obtained</th></tr>
     <tr><td>Silicon Dioxide (SiO₂)</td><td>21.65%</td></tr>
@@ -70,15 +74,21 @@ title: OPC Clinker | SATCO
     <tr><td>Free CaO</td><td>1.75%</td></tr>
   </table>
 
-  <h2>Technical Moduli & Mineralogical Composition</h2>
-  <ul>
-    <li><b>Total Alkali (Na₂O eq):</b> 0.82%</li>
-    <li><b>Lime Saturation Factor (L.S.F):</b> 93.91%</li>
-    <li><b>Silica Modulus (SIM):</b> 2.54</li>
-    <li><b>Alumina Modulus (AlM):</b> 1.17</li>
-    <li><b>Tricalcium Silicate (C₃S):</b> 59.35%</li>
-    <li><b>Dicalcium Silicate (C₂S):</b> 17.32%</li>
-    <li><b>Tricalcium Aluminate (C₃A):</b> 5.56%</li>
-    <li><b>Tetracalcium Aluminoferrite (C₄AF):</b> 11.93%</li>
-  </ul>
+  <h2>Calculated Technical Moduli</h2>
+  <table>
+    <tr><th>Parameter</th><th>Result Obtained</th></tr>
+    <tr><td>Total Alkali Content (Na₂O equivalent)</td><td>0.82%</td></tr>
+    <tr><td>Lime Saturation Factor (L.S.F)</td><td>93.91%</td></tr>
+    <tr><td>Silica Modulus (SIM)</td><td>2.54</td></tr>
+    <tr><td>Alumina Modulus (AlM)</td><td>1.17</td></tr>
+  </table>
+
+  <h2>Mineralogical Composition (Bogue Calculation)</h2>
+  <table>
+    <tr><th>Parameter</th><th>Result Obtained</th></tr>
+    <tr><td>Tricalcium Silicate (C₃S)</td><td>59.35%</td></tr>
+    <tr><td>Dicalcium Silicate (C₂S)</td><td>17.32%</td></tr>
+    <tr><td>Tricalcium Aluminate (C₃A)</td><td>5.56%</td></tr>
+    <tr><td>Tetracalcium Aluminoferrite (C₄AF)</td><td>11.93%</td></tr>
+  </table>
 </div>
