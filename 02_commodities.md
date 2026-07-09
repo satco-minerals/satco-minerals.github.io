@@ -29,13 +29,13 @@ title: Commodities | SATCO
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Oil Well Cement</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Portland Pozzolana (PPC)</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Special Pozzolanic Cement</div></a>
-  <a href="#" class="jumbo-bag"><div class="jumbo-name">Composite & Blended Cement</div></a>
+  <a href="/products/blended-cement/" class="jumbo-bag"><div class="jumbo-name">Composite & Blended Cement</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Portland Limestone Cement</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Masonry Cement</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">High Blaine Cement</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Slag Cement</div></a>
-  <a href="#" class="jumbo-bag"><div class="jumbo-name">Mixed Cement</div></a>
-  <a href="#" class="jumbo-bag"><div class="jumbo-name">Advanced Composite Cement</div></a>
+  <a href="/products/calcium-aluminate-cement/" class="jumbo-bag"><div class="jumbo-name">Mixed Cement</div></a>
+  <a href="/products/composite-cement/" class="jumbo-bag"><div class="jumbo-name">Advanced Composite Cement</div></a>
 </div>
 
 <div class="section-header">Portland Clinker</div>
@@ -50,7 +50,7 @@ title: Commodities | SATCO
 <div class="section-header">Industrial Minerals</div>
 <div class="jumbo-grid">
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Limestone</div></a>
-  <a href="#" class="jumbo-bag"><div class="jumbo-name">Calcium Carbonate</div></a>
+  <a href="/products/calcium-carbonate/" class="jumbo-bag"><div class="jumbo-name">Calcium Carbonate</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Dolomite</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Bentonite</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Kaolin (China Clay)</div></a>
@@ -62,7 +62,7 @@ title: Commodities | SATCO
 
 <div class="section-header">Eco-Additives & Energy</div>
 <div class="jumbo-grid">
-  <a href="/products/slag.html" class="jumbo-bag"><div class="jumbo-name">Blast Furnace Slag</div></a>
+  <a href="/products/blast-furnace-slag/" class="jumbo-bag"><div class="jumbo-name">Blast Furnace Slag</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Microsilica</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Zeolite</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Coal</div></a>
