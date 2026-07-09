@@ -1,10 +1,9 @@
-
 ---
 layout: default
 title: OPC Clinker
 ---
 
-# Ordinary Portland Clinker (OPC)
+# OPC Clinker (Ordinary Portland Clinker)
 
 OPC Clinker is the fundamental industrial binder base, manufactured through the precise calcination of raw materials in a rotary kiln. It provides the essential mineralogical balance required for general-purpose construction applications.
 
@@ -21,12 +20,14 @@ OPC Clinker is the fundamental industrial binder base, manufactured through the 
 ## Classification & Standards
 | Feature | Specification |
 | :--- | :--- |
-| **ASTM Standard** | ASTM C150 Type I/II |
+| **ASTM Standard** | Compliant with ASTM C150 Type I/II specifications |
 | **Quality Class** | Premium Industrial Grade |
+
+*Note: Chemical profile optimized for balanced hydration.*
 
 ---
 
-## Technical Analysis
+## OPC Clinker Analysis
 This analysis validates the chemical and mineralogical properties required for high-performance general construction applications.
 
 ### Chemical Composition
@@ -58,6 +59,8 @@ This analysis validates the chemical and mineralogical properties required for h
 ---
 
 ## Packaging & Logistics
+At SATCO, we provide flexible packaging solutions designed to meet the logistical requirements of any construction site or export destination, ensuring product integrity during transport.
+
 * **Bulk Shipment:** Available in bulk via vessels (geared/gearless) or railcars.
 * **Big Bags:** 1.5 MT to 2 MT jumbo bags for specialized handling.
 * **Storage:** Stored in moisture-controlled silos to maintain chemical stability.
