@@ -13,12 +13,27 @@ title: Portland Cement Type 5 | SATCO
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   }
   h1 { color: #0d1b2a; margin-top: 0; }
-  h2 { color: #0d1b2a; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-top: 25px; }
-  ul { line-height: 1.8; color: #333; }
-  li { margin-bottom: 10px; }
-  table { width: 100%; border-collapse: collapse; margin: 20px 0; overflow-x: auto; display: block; }
-  th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-  th { background-color: #0d1b2a; color: #ffffff; }
+  h2 { color: #0d1b2a; border-bottom: 2px solid #ddd; padding-bottom: 15px; margin-top: 30px; }
+  
+  /* استایل اختصاصی برای جداول تمام‌عرض و مرتب */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    border: 1px solid #ddd;
+  }
+  th { 
+    background-color: #0d1b2a; 
+    color: #ffffff; 
+    padding: 12px; 
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  td { 
+    padding: 12px; 
+    border: 1px solid #ddd; 
+    text-align: left; 
+  }
   tr:nth-child(even) { background-color: #f9f9f9; }
 </style>
 
