@@ -6,41 +6,41 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
   <style>
+    /* تنظیمات کلی صفحه */
     body { background-color: #f4f4f4; margin: 0; padding: 0; font-family: Arial, sans-serif; }
     
-    /* تنظیم بنر: محدود به عرض 1200 پیکسل و ارتفاع ثابت */
+    /* کانتینر اصلی بنر - ارتفاع را روی 220 پیکسل تنظیم کردم که نه خیلی بزرگ باشد نه خیلی کوچک */
     .header-container { 
+      background-color: #0d1b2a; 
       max-width: 1200px; 
-      margin: 20px auto 0 auto; /* فاصله از بالا */
-      text-align: center; 
+      margin: 20px auto 0 auto; 
+      height: 220px; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      overflow: hidden; 
     }
+    
+    /* عکس بنر بدون کراپ شدن و بدون کشیدگی */
     .header-container img { 
+      max-height: 100%; 
       max-width: 100%; 
-      max-height: 250px; 
-      display: block; 
-      border-radius: 8px; /* کمی گرد کردن گوشه‌ها برای زیبایی */
+      object-fit: contain; 
     }
 
-    /* تنظیم منو: فاصله از بنر */
+    /* تنظیمات منو */
     .satco-nav-container {
       background-color: #0d1b2a;
       max-width: 1200px;
-      margin: 20px auto; /* فاصله از بنر */
-      border-radius: 5px;
+      margin: 0 auto 20px auto;
     }
-    
-    .satco-menu {
-      list-style: none;
-      display: flex;
-      padding: 15px 20px;
-      margin: 0;
-    }
-
+    .satco-menu { list-style: none; display: flex; padding: 15px 20px; margin: 0; }
     .satco-menu li { margin-right: 30px; }
     .satco-menu li a { color: #ffffff; text-decoration: none; font-weight: 600; font-size: 14px; }
     .satco-menu li a:hover { color: #d4af37; }
 
-    main { max-width: 1200px; margin: 0 auto; padding: 20px; background: white; }
+    /* محتوای اصلی */
+    main { max-width: 1200px; margin: 0 auto; padding: 20px; background: white; border-radius: 5px; }
   </style>
 </head>
 <body>
