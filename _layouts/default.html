@@ -4,62 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
   <style>
-    /* تنظیمات کلی صفحه */
-    body { background-color: #f4f4f4; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { background-color: #f4f4f4; margin: 0; padding: 0; font-family: sans-serif; }
     
-    /* کانتینر اصلی بنر - ارتفاع را روی 220 پیکسل تنظیم کردم که نه خیلی بزرگ باشد نه خیلی کوچک */
-    .header-container { 
-      background-color: #0d1b2a; 
-      max-width: 1200px; 
-      margin: 20px auto 0 auto; 
-      height: 220px; 
-      display: flex; 
-      justify-content: center; 
-      align-items: center; 
-      overflow: hidden; 
-    }
+    /* کانتینر اصلی که عرض را محدود به 1200 پیکسل می‌کند */
+    .site-wrapper { max-width: 1200px; margin: 0 auto; background: #0d1b2a; }
+
+    /* بنر دقیقاً هم‌عرض سایت می‌شود */
+    .header-banner { width: 100%; display: block; }
     
-    /* عکس بنر بدون کراپ شدن و بدون کشیدگی */
-    .header-container img { 
-      max-height: 100%; 
-      max-width: 100%; 
-      object-fit: contain; 
-    }
+    /* منو */
+    .satco-nav { background-color: #0d1b2a; padding: 15px 20px; display: flex; border-top: 1px solid #1c3650; }
+    .satco-nav a { color: white; text-decoration: none; margin-right: 30px; font-weight: 600; font-size: 14px; }
+    .satco-nav a:hover { color: #d4af37; }
 
-    /* تنظیمات منو */
-    .satco-nav-container {
-      background-color: #0d1b2a;
-      max-width: 1200px;
-      margin: 0 auto 20px auto;
-    }
-    .satco-menu { list-style: none; display: flex; padding: 15px 20px; margin: 0; }
-    .satco-menu li { margin-right: 30px; }
-    .satco-menu li a { color: #ffffff; text-decoration: none; font-weight: 600; font-size: 14px; }
-    .satco-menu li a:hover { color: #d4af37; }
-
-    /* محتوای اصلی */
-    main { max-width: 1200px; margin: 0 auto; padding: 20px; background: white; border-radius: 5px; }
+    /* بدنه سفید */
+    main { background: white; padding: 40px 20px; }
   </style>
 </head>
 <body>
 
-  <header class="header-container">
-    <img src="{{ '/Banner.png' | relative_url }}" alt="SATCO Banner">
-  </header>
+  <div class="site-wrapper">
+    <img src="{{ '/Banner.png' | relative_url }}" alt="SATCO Banner" class="header-banner">
 
-  <nav class="satco-nav-container">
-    <ul class="satco-menu">
-      <li><a href="{{ '/' | relative_url }}">HOME</a></li>
-      <li><a href="{{ '/02_commodities.html' | relative_url }}">COMMODITIES</a></li>
-      <li><a href="{{ '/03_market_insights.html' | relative_url }}">MARKET INSIGHTS</a></li>
-      <li><a href="{{ '/04_our_shipments.html' | relative_url }}">OUR SHIPMENTS</a></li>
-      <li><a href="{{ '/05_contact.html' | relative_url }}">CONTACT US</a></li>
-    </ul>
-  </nav>
+    <nav class="satco-nav">
+      <a href="{{ '/' | relative_url }}">HOME</a>
+      <a href="{{ '/02_commodities.html' | relative_url }}">COMMODITIES</a>
+      <a href="{{ '/03_market_insights.html' | relative_url }}">MARKET INSIGHTS</a>
+      <a href="{{ '/04_our_shipments.html' | relative_url }}">OUR SHIPMENTS</a>
+      <a href="{{ '/05_contact.html' | relative_url }}">CONTACT US</a>
+    </nav>
+  </div>
 
-  <main>
+  <main style="max-width: 1200px; margin: 0 auto;">
     {{ content }}
   </main>
 
