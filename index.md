@@ -51,3 +51,7 @@ Expertise in International Logistics, Commodity Sourcing, and Strategic Consulti
 <div style="text-align: center; margin-top: 25px;">
   <a href="/04_our_shipments.html" style="color: #0d1b2a; font-weight: bold; text-decoration: none; font-size: 14px;">View All Shipments &rarr;</a>
 </div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="/commodities/" style="color: #0d1b2a; font-weight: bold; text-decoration: none; font-size: 14px;">Go to Commodities &rarr;</a>
+</div>
