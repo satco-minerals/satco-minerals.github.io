@@ -39,4 +39,31 @@ title: Commodities | SATCO
 </div>
 
 <div class="section-header">Portland Clinker</div>
-<div class="jumbo-
+<div class="jumbo-grid">
+  <a href="/products/opc-clinker/" class="jumbo-bag"><div class="jumbo-name">OPC Clinker</div></a>
+  <a href="/products/low-alkali-clinker/" class="jumbo-bag"><div class="jumbo-name">Low-Alkali Clinker</div></a>
+  <a href="/products/sr-clinker/" class="jumbo-bag"><div class="jumbo-name">SR Clinker</div></a>
+  <a href="/products/hes-clinker/" class="jumbo-bag"><div class="jumbo-name">HES Clinker</div></a>
+  <a href="/products/lhc-clinker/" class="jumbo-bag"><div class="jumbo-name">LHC Clinker</div></a>
+</div>
+
+<div class="section-header">Industrial Minerals</div>
+<div class="jumbo-grid">
+  <a href="/products/limestone/" class="jumbo-bag"><div class="jumbo-name">Limestone</div></a>
+  <a href="/products/calcium-carbonate/" class="jumbo-bag"><div class="jumbo-name">Calcium Carbonate</div></a>
+  <a href="/products/dolomite/" class="jumbo-bag"><div class="jumbo-name">Dolomite</div></a>
+  <a href="/products/bentonite/" class="jumbo-bag"><div class="jumbo-name">Bentonite</div></a>
+  <a href="/products/kaolin/" class="jumbo-bag"><div class="jumbo-name">Kaolin (China Clay)</div></a>
+  <a href="/products/barite/" class="jumbo-bag"><div class="jumbo-name">Barite</div></a>
+  <a href="/products/fluorspar/" class="jumbo-bag"><div class="jumbo-name">Fluorspar</div></a>
+  <a href="/products/feldspar/" class="jumbo-bag"><div class="jumbo-name">Feldspar</div></a>
+  <a href="/products/potash/" class="jumbo-bag"><div class="jumbo-name">Potash</div></a>
+</div>
+
+<div class="section-header">Eco-Additives & Energy</div>
+<div class="jumbo-grid">
+  <a href="/products/slag/" class="jumbo-bag"><div class="jumbo-name">Blast Furnace Slag</div></a>
+  <a href="/products/microsilica/" class="jumbo-bag"><div class="jumbo-name">Microsilica</div></a>
+  <a href="/products/zeolite/" class="jumbo-bag"><div class="jumbo-name">Zeolite</div></a>
+  <a href="/products/coal/" class="jumbo-bag"><div class="jumbo-name">Coal</div></a>
+</div>
