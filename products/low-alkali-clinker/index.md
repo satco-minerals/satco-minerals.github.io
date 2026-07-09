@@ -14,7 +14,7 @@ title: Low-Alkali Clinker | SATCO
   }
   h1 { color: #0d1b2a; margin-top: 0; }
   h2 { color: #0d1b2a; border-bottom: 2px solid #d4af37; padding-bottom: 5px; margin-top: 25px; }
-  ul { line-height: 1.8; }
+  ul { line-height: 1.8; color: #333; }
   li { margin-bottom: 10px; }
   
   table { width: 100%; border-collapse: collapse; margin: 20px 0; }
@@ -53,12 +53,36 @@ title: Low-Alkali Clinker | SATCO
     <li><b>Storage:</b> Stored in moisture-controlled silos.</li>
   </ul>
 
-  <h2>Technical Analysis</h2>
+  <h2>Chemical Composition</h2>
+  <table>
+    <tr><th>Parameter</th><th>Result Obtained</th></tr>
+    <tr><td>Silicon Dioxide (SiO₂)</td><td>22.32%</td></tr>
+    <tr><td>Aluminium Oxide (Al₂O₃)</td><td>4.86%</td></tr>
+    <tr><td>Ferric Oxide (Fe₂O₃)</td><td>3.96%</td></tr>
+    <tr><td>Calcium Oxide (CaO)</td><td>66.18%</td></tr>
+    <tr><td>Magnesium Oxide (MgO)</td><td>1.93%</td></tr>
+    <tr><td>Sulfur Trioxide (SO₃)</td><td>0.37%</td></tr>
+    <tr><td>Potassium Oxide (K₂O)</td><td>0.57%</td></tr>
+    <tr><td>Sodium Oxide (Na₂O)</td><td>0.22%</td></tr>
+    <tr><td>Loss on Ignition (L.O.I)</td><td>0.12%</td></tr>
+    <tr><td>Insoluble Residue (I.R)</td><td>0.25%</td></tr>
+  </table>
+
+  <h2>Calculated Technical Moduli</h2>
   <table>
     <tr><th>Parameter</th><th>Result Obtained</th></tr>
     <tr><td>Total Alkali (Na₂O eq)</td><td>0.595%</td></tr>
     <tr><td>Lime Saturation Factor (L.S.F)</td><td>93.5%</td></tr>
     <tr><td>Silica Modulus (SIM)</td><td>2.53</td></tr>
     <tr><td>Alumina Modulus (AlM)</td><td>1.23</td></tr>
+  </table>
+
+  <h2>Mineralogical Composition (Bogue Calculation)</h2>
+  <table>
+    <tr><th>Phase</th><th>Result Obtained</th></tr>
+    <tr><td>Tricalcium Silicate (C₃S)</td><td>61.4%</td></tr>
+    <tr><td>Dicalcium Silicate (C₂S)</td><td>17.8%</td></tr>
+    <tr><td>Tricalcium Aluminate (C₃A)</td><td>6.2%</td></tr>
+    <tr><td>Tetracalcium Aluminoferrite (C₄AF)</td><td>12.0%</td></tr>
   </table>
 </div>
