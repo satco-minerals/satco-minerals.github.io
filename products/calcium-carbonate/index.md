@@ -24,7 +24,7 @@ title: Calcium Carbonate | SATCO
 </style>
 
 <div class="content-card">
-  <h1>Calcium Carbonate</h1>
+  <h1>Calcium Carbonate (CaCO₃)</h1>
   <p>Calcium Carbonate (CaCO₃) is a high-purity industrial mineral derived from premium limestone deposits. Known for its exceptional brightness and chemical consistency, our Calcium Carbonate is processed to meet the rigorous demands of various industrial applications, ensuring reliability in manufacturing and material performance.</p>
 
   <h2>Key Features & Advantages</h2>
@@ -49,12 +49,12 @@ title: Calcium Carbonate | SATCO
 
   <h2>CHEMICAL ANALYSIS</h2>
   <table>
-    <tr><th>COMPONENT</th><th>PERCENTAGE (%)</th></tr>
+    <tr><th>Component</th><th>Percentage (%)</th></tr>
     <tr><td>CaCO₃</td><td>98.60</td></tr>
     <tr><td>SiO₂</td><td>0.85</td></tr>
-    <tr><td>Fe₂O₃</td><td>0.25</td></tr>
-    <tr><td>Al₂O₃</td><td>0.05</td></tr>
-    <tr><td>MgO</td><td>0.15</td></tr>
-    <tr><td>LOI</td><td>43.60</td></tr>
+    <tr><td>MgO</td><td>0.25</td></tr>
+    <tr><td>Fe₂O₃</td><td>0.05</td></tr>
+    <tr><td>Al₂O₃</td><td>0.15</td></tr>
+    <tr><td>CaO</td><td>43.60</td></tr>
   </table>
 </div>
