@@ -7,26 +7,41 @@
   <style>
     body { background-color: #f4f4f4; margin: 0; padding: 0; font-family: sans-serif; }
     
-    /* کانتینر اصلی که عرض را محدود به 1200 پیکسل می‌کند */
-    .site-wrapper { max-width: 1200px; margin: 0 auto; background: #0d1b2a; }
-
-    /* بنر دقیقاً هم‌عرض سایت می‌شود */
-    .header-banner { width: 100%; display: block; }
+    /* تنظیمات بنر با استفاده از روش Background-Image که باعث می‌شود عکس همیشه فیت باشد */
+    .hero-banner { 
+      width: 100%; 
+      height: 350px; 
+      background-image: url('{{ '/Banner.png' | relative_url }}'); 
+      background-size: cover; 
+      background-position: center; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: flex-end; 
+    }
     
-    /* منو */
-    .satco-nav { background-color: #0d1b2a; padding: 15px 20px; display: flex; border-top: 1px solid #1c3650; }
-    .satco-nav a { color: white; text-decoration: none; margin-right: 30px; font-weight: 600; font-size: 14px; }
+    /* منو که حالا روی بنر قرار می‌گیرد */
+    .satco-nav { 
+      background: rgba(13, 27, 42, 0.85); /* کمی شفاف تا زیبایی عکس مشخص باشد */
+      padding: 15px 0; 
+      text-align: center; 
+    }
+    .satco-nav a { 
+      color: #ffffff; 
+      margin: 0 20px; 
+      text-decoration: none; 
+      font-weight: 600; 
+      font-size: 14px; 
+      letter-spacing: 1px;
+    }
     .satco-nav a:hover { color: #d4af37; }
 
-    /* بدنه سفید */
-    main { background: white; padding: 40px 20px; }
+    /* محتوای سایت */
+    .main-content { max-width: 1200px; margin: 30px auto; padding: 20px; background: white; border-radius: 5px; }
   </style>
 </head>
 <body>
 
-  <div class="site-wrapper">
-    <img src="{{ '/Banner.png' | relative_url }}" alt="SATCO Banner" class="header-banner">
-
+  <header class="hero-banner">
     <nav class="satco-nav">
       <a href="{{ '/' | relative_url }}">HOME</a>
       <a href="{{ '/02_commodities.html' | relative_url }}">COMMODITIES</a>
@@ -34,9 +49,9 @@
       <a href="{{ '/04_our_shipments.html' | relative_url }}">OUR SHIPMENTS</a>
       <a href="{{ '/05_contact.html' | relative_url }}">CONTACT US</a>
     </nav>
-  </div>
+  </header>
 
-  <main style="max-width: 1200px; margin: 0 auto;">
+  <main class="main-content">
     {{ content }}
   </main>
 
