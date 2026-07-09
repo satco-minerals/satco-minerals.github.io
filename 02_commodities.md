@@ -14,33 +14,33 @@ title: Commodities | SATCO
 
 <div class="section-header">Gypsum Products</div>
 <div class="jumbo-grid">
-  <a href="/products/gypsum-rock/" class="jumbo-bag"><div class="jumbo-name">Natural Gypsum Rock</div></a>
+  <a href="/products/gypsum-mineral/" class="jumbo-bag"><div class="jumbo-name">Natural Gypsum Rock</div></a>
   <a href="/products/gypsum-powder/" class="jumbo-bag"><div class="jumbo-name">Gypsum Powder</div></a>
 </div>
 
 <div class="section-header">Cement Series</div>
 <div class="jumbo-grid">
-  <a href="/products/opc-type-1/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 1</div></a>
-  <a href="/products/opc-type-2/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 2</div></a>
-  <a href="/products/opc-type-3/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 3</div></a>
-  <a href="/products/opc-type-4/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 4</div></a>
-  <a href="/products/opc-type-5/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 5</div></a>
-  <a href="/products/white-cement/" class="jumbo-bag"><div class="jumbo-name">White Portland Cement</div></a>
+  <a href="/products/opc-type1/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 1</div></a>
+  <a href="/products/opc-type2/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 2</div></a>
+  <a href="/products/opc-type3/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 3</div></a>
+  <a href="/products/opc-type4/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 4</div></a>
+  <a href="/products/opc-type5/" class="jumbo-bag"><div class="jumbo-name">OPC - Type 5</div></a>
+  <a href="/products/white-portland-cement/" class="jumbo-bag"><div class="jumbo-name">White Portland Cement</div></a>
   <a href="/products/oil-well-cement/" class="jumbo-bag"><div class="jumbo-name">Oil Well Cement</div></a>
-  <a href="/products/ppc-cement/" class="jumbo-bag"><div class="jumbo-name">Portland Pozzolana (PPC)</div></a>
-  <a href="/products/special-pozzolanic/" class="jumbo-bag"><div class="jumbo-name">Special Pozzolanic Cement</div></a>
-  <a href="/products/blended-cement/" class="jumbo-bag"><div class="jumbo-name">Composite & Blended Cement</div></a>
-  <a href="/products/portland-limestone/" class="jumbo-bag"><div class="jumbo-name">Portland Limestone Cement</div></a>
+  <a href="/products/portland-pozzolan-cement/" class="jumbo-bag"><div class="jumbo-name">Portland Pozzolana (PPC)</div></a>
+  <a href="/products/special-pozzolanic-cement/" class="jumbo-bag"><div class="jumbo-name">Special Pozzolanic Cement</div></a>
+  <a href="/products/blended-cements/" class="jumbo-bag"><div class="jumbo-name">Composite & Blended Cement</div></a>
+  <a href="/products/limestone-portland-cement/" class="jumbo-bag"><div class="jumbo-name">Portland Limestone Cement</div></a>
   <a href="/products/masonry-cement/" class="jumbo-bag"><div class="jumbo-name">Masonry Cement</div></a>
-  <a href="/products/high-blaine/" class="jumbo-bag"><div class="jumbo-name">High Blaine Cement</div></a>
+  <a href="/products/high-blaine-cement/" class="jumbo-bag"><div class="jumbo-name">High Blaine Cement</div></a>
   <a href="/products/slag-cement/" class="jumbo-bag"><div class="jumbo-name">Slag Cement</div></a>
   <a href="/products/calcium-aluminate-cement/" class="jumbo-bag"><div class="jumbo-name">Mixed Cement</div></a>
-  <a href="/products/composite-cement/" class="jumbo-bag"><div class="jumbo-name">Advanced Composite Cement</div></a>
+  <a href="/products/portland-composite-cement/" class="jumbo-bag"><div class="jumbo-name">Advanced Composite Cement</div></a>
 </div>
 
 <div class="section-header">Portland Clinker</div>
 <div class="jumbo-grid">
-  <a href="/products/opc-clinker/" class="jumbo-bag"><div class="jumbo-name">OPC Clinker</div></a>
+  <a href="/products/OPC-Clinker/" class="jumbo-bag"><div class="jumbo-name">OPC Clinker</div></a>
   <a href="/products/low-alkali-clinker/" class="jumbo-bag"><div class="jumbo-name">Low-Alkali Clinker</div></a>
   <a href="/products/sr-clinker/" class="jumbo-bag"><div class="jumbo-name">SR Clinker</div></a>
   <a href="/products/hes-clinker/" class="jumbo-bag"><div class="jumbo-name">HES Clinker</div></a>
@@ -62,7 +62,7 @@ title: Commodities | SATCO
 
 <div class="section-header">Eco-Additives & Energy</div>
 <div class="jumbo-grid">
-  <a href="/products/slag/" class="jumbo-bag"><div class="jumbo-name">Blast Furnace Slag</div></a>
+  <a href="/products/blast-furnace-slag/" class="jumbo-bag"><div class="jumbo-name">Blast Furnace Slag</div></a>
   <a href="/products/microsilica/" class="jumbo-bag"><div class="jumbo-name">Microsilica</div></a>
   <a href="/products/zeolite/" class="jumbo-bag"><div class="jumbo-name">Zeolite</div></a>
   <a href="/products/coal/" class="jumbo-bag"><div class="jumbo-name">Coal</div></a>
