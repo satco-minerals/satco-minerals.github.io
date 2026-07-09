@@ -41,6 +41,10 @@ title: OPC Clinker | SATCO
     <tr><td>C3S (Tricalcium Silicate)</td><td>≥ 55%</td></tr>
     <tr><td>Free Lime (CaO)</td><td>≤ 1.5%</td></tr>
     <tr><td>MgO Content</td><td>≤ 5.0%</td></tr>
-    <tr><td>Loss on Ignition</td><td>≤ 0.5%</td></tr>
+    <tr><td>Loss on Ignition (L.O.I)</td><td>≤ 0.5%</td></tr>
+    <tr><td>Silicon Dioxide (SiO₂)</td><td>21.65%</td></tr>
+    <tr><td>Aluminium Oxide (Al₂O₃)</td><td>4.60%</td></tr>
+    <tr><td>Ferric Oxide (Fe₂O₃)</td><td>3.92%</td></tr>
+    <tr><td>Calcium Oxide (CaO)</td><td>64.42%</td></tr>
   </table>
 </div>
