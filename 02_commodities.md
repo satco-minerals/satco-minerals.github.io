@@ -29,13 +29,13 @@ title: Commodities | SATCO
   <a href="/products/oil-well-cement/" class="jumbo-bag"><div class="jumbo-name">Oil Well Cement</div></a>
   <a href="/products/portland-pozzolan-cement/" class="jumbo-bag"><div class="jumbo-name">Portland Pozzolana (PPC)</div></a>
   <a href="/products/special-pozzolanic-cement/" class="jumbo-bag"><div class="jumbo-name">Special Pozzolanic Cement</div></a>
-  <a href="/products/blended-cements/" class="jumbo-bag"><div class="jumbo-name">Composite & Blended Cement</div></a>
+  <a href="/products/blended-cements/" class="jumbo-bag"><div class="jumbo-name">Blended Cement</div></a>
   <a href="/products/limestone-portland-cement/" class="jumbo-bag"><div class="jumbo-name">Portland Limestone Cement</div></a>
   <a href="/products/masonry-cement/" class="jumbo-bag"><div class="jumbo-name">Masonry Cement</div></a>
   <a href="/products/high-blaine-cement/" class="jumbo-bag"><div class="jumbo-name">High Blaine Cement</div></a>
   <a href="/products/slag-cement/" class="jumbo-bag"><div class="jumbo-name">Slag Cement</div></a>
-  <a href="/products/calcium-aluminate-cement/" class="jumbo-bag"><div class="jumbo-name">Mixed Cement</div></a>
-  <a href="/products/portland-composite-cement/" class="jumbo-bag"><div class="jumbo-name">Advanced Composite Cement</div></a>
+  <a href="/products/calcium-aluminate-cement/" class="jumbo-bag"><div class="jumbo-name">Calcium Aluminate Cement</div></a>
+  <a href="/products/portland-composite-cement/" class="jumbo-bag"><div class="jumbo-name">Composite Cement</div></a>
 </div>
 
 <div class="section-header">Portland Clinker</div>
