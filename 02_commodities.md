@@ -4,19 +4,22 @@ title: Commodities | SATCO
 ---
 
 <style>
+  /* ساختار کلی ۶ تایی */
   .commodities-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 20px;
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
   }
+  
+  /* باکس‌های اصلی سرمه‌ای با حاشیه طلایی */
   .category-box {
     background: #0d1b2a;
     border: 3px solid #d4af37;
-    border-radius: 15px;
-    padding: 25px;
+    border-radius: 12px;
+    padding: 20px;
     text-align: center;
     color: #d4af37;
     font-weight: 800;
@@ -26,6 +29,8 @@ title: Commodities | SATCO
     flex-direction: column;
     align-items: center;
   }
+  
+  /* لیست محصولات داخل باکس */
   .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -33,19 +38,20 @@ title: Commodities | SATCO
     gap: 10px;
     margin-top: 15px;
   }
+  
+  /* دکمه‌های محصولات */
   .product-item {
-    background: #0d1b2a;
-    border: 2px solid #d4af37;
-    color: #ffffff;
-    padding: 6px 14px;
-    border-radius: 6px;
-    font-size: 0.85em;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  .product-item:hover {
     background: #d4af37;
     color: #0d1b2a;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #d4af37;
+  }
+  .product-item:hover {
+    background: #ffffff;
   }
 </style>
 
