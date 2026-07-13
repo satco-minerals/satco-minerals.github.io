@@ -7,21 +7,18 @@
   <style>
     body { background-color: #f4f4f4; margin: 0; padding: 0; font-family: sans-serif; }
     
-    /* تنظیمات بنر با استفاده از روش Background-Image که باعث می‌شود عکس همیشه فیت باشد */
+    /* بنر کاملاً مستقل در بالای صفحه */
     .hero-banner { 
       width: 100%; 
       height: 350px; 
       background-image: url('{{ '/Banner.png' | relative_url }}'); 
       background-size: cover; 
       background-position: center; 
-      display: flex; 
-      flex-direction: column; 
-      justify-content: flex-end; 
     }
     
-    /* منو که حالا روی بنر قرار می‌گیرد */
+    /* منو بلافاصله زیر بنر */
     .satco-nav { 
-      background: rgba(13, 27, 42, 0.85); /* کمی شفاف تا زیبایی عکس مشخص باشد */
+      background: #0d1b2a; 
       padding: 15px 0; 
       text-align: center; 
     }
@@ -41,15 +38,17 @@
 </head>
 <body>
 
-  <header class="hero-banner">
-    <nav class="satco-nav">
-      <a href="{{ '/' | relative_url }}">HOME</a>
-      <a href="{{ '/02_commodities.html' | relative_url }}">COMMODITIES</a>
-      <a href="{{ '/03_market_insights.html' | relative_url }}">MARKET INSIGHTS</a>
-      <a href="{{ '/04_our_shipments.html' | relative_url }}">OUR SHIPMENTS</a>
-      <a href="{{ '/05_contact.html' | relative_url }}">CONTACT US</a>
-    </nav>
-  </header>
+  <!-- بنر در بالاترین جای ممکن -->
+  <div class="hero-banner"></div>
+
+  <!-- منو زیر بنر -->
+  <nav class="satco-nav">
+    <a href="{{ '/' | relative_url }}">HOME</a>
+    <a href="{{ '/02_commodities.html' | relative_url }}">COMMODITIES</a>
+    <a href="{{ '/03_market_insights.html' | relative_url }}">MARKET INSIGHTS</a>
+    <a href="{{ '/04_our_shipments.html' | relative_url }}">OUR SHIPMENTS</a>
+    <a href="{{ '/05_contact.html' | perfect_url }}">CONTACT US</a>
+  </nav>
 
   <main class="main-content">
     {{ content }}
