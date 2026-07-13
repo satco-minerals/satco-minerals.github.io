@@ -3,6 +3,8 @@ layout: default
 title: SATCO | Global Commodities & Supply Chain Partner
 ---
 
+<img src="/assets/banner.png" alt="Banner" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+
 # SATCO
 
 ## Your Trusted Global Commodities & Supply Chain Partner
