@@ -3,15 +3,16 @@ layout: default
 title: SATCO | Global Commodities & Supply Chain Partner
 ---
 
-<img src="/assets/banner.png" alt="Banner" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
-
+<div style="width: 100%; height: 250px; overflow: hidden; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <img src="/assets/banner.png" alt="SATCO Banner" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
 # SATCO
 
 ## Your Trusted Global Commodities & Supply Chain Partner
 
 Expertise in International Logistics, Commodity Sourcing, and Strategic Consulting. We deliver reliable commodities directly to your destination with professional logistics management.
 
-<a href="/05_contact.html" style="display: inline-block; background-color: #d4af37; color: #0d1b2a; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 4px; margin-top: 10px; transition: background 0.3s;" onmouseover="this.style.backgroundColor='#b8952e'" onmouseout="this.style.backgroundColor='#d4af37'">Request a Quote</a>
+<a href="/05_contact.html" style="display: inline-block; background-color: #d4af37; color: #0d1b2a; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 4px; margin-top: 10px;">Request a Quote</a>
 
 ---
 
@@ -27,25 +28,19 @@ Expertise in International Logistics, Commodity Sourcing, and Strategic Consulti
 ### 🚢 Recent Shipments & Operations
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px;">
 
-  <!-- باکس اول -->
   <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); background: #fff;">
     <span style="background: #0d1b2a; color: #fff; padding: 3px 8px; font-size: 11px; font-weight: bold; border-radius: 3px;">OVERLAND</span>
     <h4 style="margin: 10px 0 5px 0; color: #0d1b2a;">Cross-Border Mineral Fleet</h4>
-    <p style="font-size: 13px; margin: 0; color: #555;"><strong>Commodity:</strong> Bulk Cement & Gypsum<br><strong>Status:</strong> Successfully Delivered</p>
   </div>
 
-  <!-- باکس دوم -->
   <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); background: #fff;">
     <span style="background: #0d1b2a; color: #fff; padding: 3px 8px; font-size: 11px; font-weight: bold; border-radius: 3px;">MARITIME</span>
     <h4 style="margin: 10px 0 5px 0; color: #0d1b2a;">Bulk Vessel Cargo Loading</h4>
-    <p style="font-size: 13px; margin: 0; color: #555;"><strong>Commodity:</strong> Premium Clinker<br><strong>Status:</strong> Dispatched & In Transit</p>
   </div>
 
-  <!-- باکس سوم -->
   <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); background: #fff;">
     <span style="background: #d4af37; color: #0d1b2a; padding: 3px 8px; font-size: 11px; font-weight: bold; border-radius: 3px;">LOGISTICS</span>
     <h4 style="margin: 10px 0 5px 0; color: #0d1b2a;">Supply Chain Optimization</h4>
-    <p style="font-size: 13px; margin: 0; color: #555;"><strong>Route:</strong> Multi-Modal Regional Transit<br><strong>Efficiency:</strong> 100% On-Time Delivery</p>
   </div>
 
 </div>
