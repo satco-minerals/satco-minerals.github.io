@@ -11,14 +11,14 @@ title: Our Shipments | SATCO
     margin-bottom: 40px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
     transition: transform 0.3s ease;
-    overflow: hidden; /* این باعث می‌شود عکس لبه‌های باکس را مرتب کند */
+    overflow: hidden; 
   }
   .shipment-card:hover { transform: translateY(-5px); }
   
   .shipment-img {
     width: 100%;
     height: 250px;
-    object-fit: cover; /* عکس بدون کشیدگی، کادر را پر می‌کند */
+    object-fit: cover; 
     display: block;
   }
 
@@ -103,6 +103,23 @@ This section highlights our operational capacity and commitment to timely, relia
       <div class="stat-item"><div class="stat-value">45,000 MT</div><div class="stat-label">Volume</div></div>
       <div class="stat-item"><div class="stat-value">4.5 Days</div><div class="stat-label">Loading Time</div></div>
       <div class="stat-item"><div class="stat-value">Bulk</div><div class="stat-label">Carrier Type</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- پروژه سنگ گچ -->
+<div class="shipment-card">
+  <img src="assets/gypsumrock.png" class="shipment-img" alt="Gypsum Rock Export to China">
+  <div class="content-padding">
+    <span class="badge">Operational Milestone</span>
+    <h2 style="color: #0d1b2a; margin: 15px 0;">Industrial Gypsum Export: China Market</h2>
+    <p style="color: #444; line-height: 1.6;">
+      Managing a large-scale export contract of 47,000 MT of Gypsum Rock destined for the Chinese market. This operation highlights our heavy-duty logistics capability, achieving a consistent daily loading rate of 8,000 MT. We prioritize high-throughput supply chain efficiency to meet strict industrial timelines and reduce port costs.
+    </p>
+    <div class="stats-grid">
+      <div class="stat-item"><div class="stat-value">47,000 MT</div><div class="stat-label">Total Volume</div></div>
+      <div class="stat-item"><div class="stat-value">8,000 MT/day</div><div class="stat-label">Loading Rate</div></div>
+      <div class="stat-item"><div class="stat-value">China</div><div class="stat-label">Destination</div></div>
     </div>
   </div>
 </div>
