@@ -47,7 +47,22 @@ This section highlights our operational capacity and commitment to timely, relia
 
 <br>
 
-<!-- پروژه کلینکر -->
+<!-- پروژه جدید: سیمان کویت -->
+<div class="shipment-card">
+  <span class="badge">Strategic Operation</span>
+  <h2 style="color: #0d1b2a; margin: 15px 0;">Large-Scale Bulk Cement Supply: Kuwait Market</h2>
+  <p style="color: #444; line-height: 1.6;">
+    Successfully fulfilled a 30,000 MT shipment of Type 1 Bulk Cement for the Kuwaiti construction sector. Our operational focus centered on maintaining an optimized loading rate of 5,000 MT per 24 hours, ensuring critical project timelines were met with precision and minimizing vessel turnaround time at the port.
+  </p>
+
+  <div class="stats-grid">
+    <div class="stat-item"><div class="stat-value">30,000 MT</div><div class="stat-label">Total Volume</div></div>
+    <div class="stat-item"><div class="stat-value">5,000 MT/24h</div><div class="stat-label">Loading Rate</div></div>
+    <div class="stat-item"><div class="stat-value">Kuwait</div><div class="stat-label">Destination</div></div>
+  </div>
+</div>
+
+<!-- پروژه قبلی: کلینکر -->
 <div class="shipment-card">
   <span class="badge">Success Story</span>
   <h2 style="color: #0d1b2a; margin: 15px 0;">Bulk Clinker Export: Operational Excellence</h2>
