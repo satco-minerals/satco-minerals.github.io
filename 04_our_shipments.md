@@ -47,7 +47,22 @@ This section highlights our operational capacity and commitment to timely, relia
 
 <br>
 
-<!-- پروژه جدید: سیمان کویت -->
+<!-- پروژه سومالی -->
+<div class="shipment-card">
+  <span class="badge">Export Excellence</span>
+  <h2 style="color: #0d1b2a; margin: 15px 0;">Bagged Cement Export: Specialized Packaging Strategy</h2>
+  <p style="color: #444; line-height: 1.6;">
+    Successfully managed the export of 10,000 MT of Type 2 Cement to the Somali market. We utilized a specialized packaging strategy, loading 50kg bags into 1.5-ton Jumbo bags, ensuring maximum cargo protection during maritime transport. This operation demonstrated our operational efficiency, maintaining a consistent loading rate of 3,000 MT per day.
+  </p>
+
+  <div class="stats-grid">
+    <div class="stat-item"><div class="stat-value">10,000 MT</div><div class="stat-label">Total Volume</div></div>
+    <div class="stat-item"><div class="stat-value">3,000 MT/day</div><div class="stat-label">Loading Rate</div></div>
+    <div class="stat-item"><div class="stat-value">Somalia</div><div class="stat-label">Destination</div></div>
+  </div>
+</div>
+
+<!-- پروژه کویت -->
 <div class="shipment-card">
   <span class="badge">Strategic Operation</span>
   <h2 style="color: #0d1b2a; margin: 15px 0;">Large-Scale Bulk Cement Supply: Kuwait Market</h2>
@@ -62,7 +77,7 @@ This section highlights our operational capacity and commitment to timely, relia
   </div>
 </div>
 
-<!-- پروژه قبلی: کلینکر -->
+<!-- پروژه کلینکر -->
 <div class="shipment-card">
   <span class="badge">Success Story</span>
   <h2 style="color: #0d1b2a; margin: 15px 0;">Bulk Clinker Export: Operational Excellence</h2>
